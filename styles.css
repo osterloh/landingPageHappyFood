@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  background-color: #c10000;
+}
+
+header div img {
+  margin-left: 20px;
+}
+
+.produto p {
+  width: 223px;
+  margin-left: 116px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.produto input {
+  margin-left: 20px;
+  width: 720px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: none;
+  color: #868686;
+  font-size: 24px;
+
+  background-image: url(./assets/search.svg);
+  background-repeat: no-repeat;
+  background-size: 34px;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.produto input::placeholder {
+  color: #868686;
+  font-size: 24px;
+}
+
+.filtro img {
+  width: 40px;
+}
+
+.filtro span {
+  margin-left: 4px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+main .promocao,
+.cardapio {
+  width: 1180px;
+  margin: 10px auto;
+}
+
+main .promocao div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -90px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+main .promocao p,
+.cardapio p {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #323232;
+}
+
+main .promocao img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+main .promocao .descricao-promocao {
+  width: 244px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+main .promocao .descricao-promocao p {
+  color: #ffffff;
+}
+
+main .promocao .eu-quero {
+  background-color: #c10000;
+  width: 180px;
+  height: 65px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+main .promocao .eu-quero p {
+  color: #ffffff;
+  text-align: center;
+  margin-top: -1px;
+}
+
+.card-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .cardapio .card {
+  display: flex;
+  margin-top: 10px;
+  width: 579px;
+  height: 140px;
+  border: 2px solid #323232;
+  border-radius: 5px;
+}
+
+main .cardapio .card img {
+  width: 200px;
+  height: 140px;
+  margin-right: 20px;
+}
+
+main .cardapio .card .descricao {
+  width: 208px;
+}
+
+main .cardapio .card .descricao .nome-lanche {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+main .cardapio .card .descricao .descricao-lanche {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+main .cardapio .card .valor {
+  margin-left: 30px;
+}
+
+main .cardapio .card .valor p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #c10000;
+}
+
+.controle {
+  display: flex;
+}
+
+main .cardapio .card .valor .controle .soma {
+  background-color: #c10000;
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+main .cardapio .card .valor .qtd {
+  background-color: #c4c4c4;
+  width: 40px;
+  height: 40px;
+  color: #323232;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+main .cardapio .card .valor .sub {
+  background-color: #c10000;
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+}
+
+footer div {
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: #c10000;
+}
+
+footer div img {
+  margin-left: 110px;
+  width: 200px;
+}
+
+footer div div {
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+footer div div img {
+  width: 60px;
+  margin: auto;
+}
+
+footer div div p {
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+footer div div button {
+  width: 407px;
+  height: 76px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#email {
+  background-color: #5eeb34;
+}
+
+footer div div input {
+  margin-top: 10px;
+  width: 720px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: none;
+  color: #868686;
+  font-size: 24px;
+
+  background-image: url(./assets/email.png);
+  background-repeat: no-repeat;
+  background-size: 34px;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+footer div div input::placeholder {
+  color: #868686;
+  font-size: 24px;
+}
+
+.links {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.links a img {
+  margin: 10px 20px 10px 0;
+  width: 60px;
+}
+
+.fonte-bold {
+  font-weight: 700;
+}
